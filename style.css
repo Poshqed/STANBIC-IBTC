@@ -1,0 +1,101 @@
+body{margin: auto;
+    width: 50%;}
+
+
+.split {height: 100%;
+width: 50%;
+position: fixed;
+z-index: 1;
+top: 0;
+overflow-x: hidden;
+padding-top: 20px;
+}
+
+.left {
+    left: 0;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    height:fit-content;
+    text-align: center;
+    padding-top: 300px ;
+    padding-bottom: 300px;
+    font-family: 'Fredoka', sans-serif;
+    line-height: 1.3em;
+    margin-left: 300px;
+
+}
+.left::after {content: "";
+    background: url(bg1.jpeg);
+    opacity: 0.15;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+ul {list-style-type: none;
+float: right;}
+
+li{display: inline;}
+
+.right {right: 0;
+background-color: white;
+border-bottom-right-radius: 40px;
+border-top-right-radius: 40px;
+border: 0.1px dotted black;
+}
+
+a {text-decoration: none;
+margin-right: 40px;color: blue;}
+
+.centered {font-family: 'Fredoka', sans-serif;}
+
+nav {margin-top: -35px;
+}
+.sign {margin-top: 120px;
+    margin-left: 80px;
+ font-size: 40px;}
+
+ button a {color: white;}
+ input {margin-left: 80px;
+        margin-bottom: 18px;
+        width: 500px;
+        height: 25px;
+        border-bottom: 1px solid black;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;}
+
+input.first {border-bottom: 2px solid blue;
+           }
+           
+.term {margin-left: 80px;
+        margin-bottom: 50px;}
+
+span {color: blue;}
+button{border-radius: 60px;
+width: 500px;
+margin:5px 0;
+height: 30px;
+color: white;
+background-color: blue;
+box-sizing: border-box;
+border-width: 0;}
+
+.move {
+margin-left: 130px;}
+
+.special {text-align: center;
+            margin-right: 300px;
+            font-size: 35px;
+           font-family: Arial, Helvetica, sans-serif; }
+.veryspecial {text-align: center;
+    margin-right: 300px;
+    font-size: 60px;
+    letter-spacing: 0;
+font-family: Arial, Helvetica, sans-serif;}
+.notspecial {text-align: center;
+    margin-right: 300px;
+    font-size: 20px;}
